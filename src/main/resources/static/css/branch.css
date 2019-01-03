@@ -1,0 +1,303 @@
+.branch{
+    width: 80%;
+    margin: 15% auto 0;
+    display: none;
+}
+
+.branch p{
+    background: url("../images/xxx.png") no-repeat;
+    background-position: 17%, 5px;
+    background-size: 35px, 35px;
+}
+
+.ad_GiftPackageBody{
+    margin-top: 0px;
+    background: url("../images/boxBody.png") no-repeat;
+    background-size: 100% 100%;
+}
+
+.ad_top{
+    padding-top: 10px;
+}
+.ad_GiftPackageBodyDetail{
+    width: 95%;
+    height: 41px;
+    margin: 0px auto 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.ad_GiftPackageBodyDetail2{
+    width: 95%;
+    height: 35px;
+    margin: 0px auto 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.ad_GiftPackageBodyDetail .top{
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 10px;
+    /*display: inline-block;*/
+    /*width: 40%;*/
+    /*text-align: left;*/
+    /*line-height: 1.5;*/
+}
+.ad_GiftPackageBodyDetail .center{
+    font-size: 30px;
+    /*font-weight: 1;*/
+    font-weight: normal;
+    color: red; 
+    /*-webkit-text-fill-color: 1.4px #FFFFF5;*/
+    -webkit-text-stroke: 1px #FFFFFF;
+    /*color: rgb(102, 98, 99);*/
+    -webkit-text-fill-color: red;
+        text-overflow:ellipsis; 
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 1;
+            overflow: hidden;
+            text-align: center;
+}
+
+.ad_GiftPackageBodyDetail2 .bottom_time{
+    padding-top: 0px;
+    font-size: 17px;
+    font-weight: 700;
+    color: black;
+}
+
+.ad_GiftPackageBodyDetail .per{
+    width: 80%;
+    height: 30px;
+    line-height: 30px;
+    padding-top: -10px;
+    position: relative;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+.ad_GiftPackageBodyDetail .all{
+    left: 0;
+    top: 0;
+    width: 80%;
+    position: absolute;
+    /*float: left;*/
+    /*display: flex;*/
+}
+
+.ad_GiftPackageBodyDetail .part{
+    /*display: flex;*/
+    /*float: left;*/
+    /*width: 35%;*/
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    left: 0;
+    top: 0;
+    height: 30px;
+    width: 30%;
+    background-color: pink;
+    position: absolute;
+}
+
+.ad_GiftPackageBodyDetail .bottom_per{
+    font-size: 23px;
+    font-weight: 400;
+}
+
+.ad_GiftPackageBodyDetail div{
+    width: 100%;
+    height: 32px;
+    line-height: 32px;
+    /*height: 30%*/
+    margin: 0 auto;
+    /*padding-bottom: 20px;*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+
+
+.ad_branch_bottom{
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+    margin: 0px auto 0px;
+    padding-bottom: 10px;
+    /*background-color: pink;*/
+    display: flex;
+    /*flex-wrap: wrap;*/
+    justify-content: space-around;
+}
+
+.ad_branch_bottom div span{
+    /*background-color: red;*/
+    height: 30px;
+    display: block;
+    text-align: center;
+}
+
+
+.ad_branch_top{
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    /*margin: 5px auto 0;*/
+    float: left;
+    /*display: flex;*/
+    /*flex-wrap: wrap;*/
+    justify-content: space-around;
+}
+
+.ad_branch_top .left{
+    display: inline;
+    text-align: right;
+    width: 60%;
+    float: left;
+    font-size: 23px;
+    font-weight: 700;
+    color: black;
+}
+
+.ad_branch_top .right{
+    float: left;
+    height: 60px;
+    width: 60px;
+    background: url("../images/secondMan.png") no-repeat;
+    background-size: 100% 100%;
+}
+
+.ad_bottom_buy, .ad_bottom_reflect{
+    height: 80px;
+    background-color: blue;
+    /*margin: 5%, 10%, 5% 10%; */
+    width: 35%;
+    float: left;
+    /*height: 80%;*/
+    text-align: center;
+    margin-left: 10%;
+    margin-top: 10px;
+}
+
+.ad_bottom_buy{
+    background: url("../images/Help.png") no-repeat;
+    background-size: 100% 100%;
+    /*margin:20px 0;*/
+    /*width: 30%;*/
+    /*background-color: red;*/
+}
+
+.ad_bottom_reflect{
+ background: url("../images/Help.png") no-repeat;
+ background-size: 100% 100%;
+}
+
+.ad_branch_center{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    margin: 0px auto 0;
+    float: left;
+}
+
+.ad_all .equal{
+    float: right;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 23px;
+    font-weight: 400;
+}
+
+.ad_all .left_count{
+    width: 60px;
+    text-align: center;
+    float: right;
+    font-size: 23px;
+    font-weight: 400;
+    color: black;
+    border-bottom: 2px solid black;
+    margin-bottom: 5px;
+    overflow:hidden
+}
+
+.ad_all .right_count{
+    float: right;
+    font-size: 17px;
+    font-weight: 400;
+    color: black;
+    width: 32%;
+    text-overflow:ellipsis; 
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 1;
+            overflow: hidden;
+}
+
+.ad_all .bitIcon{
+    float: right;
+    margin: 8px;
+    margin-right: 20px;
+    height: 24px;
+    width: 24px;
+    background: url("../images/coinB.png") no-repeat;
+    background-size: 100% 100%;
+}
+
+.ad_branch_bottom .left{
+    font-size: 23px;
+    font-weight: 400;
+    color: black;
+}
+
+.ad_branch_bottom .right{
+    font-size: 23px;
+    font-weight: 400;
+    color: black;
+}
+
+.ad_branch_bottom .top{
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+}
+
+.ad_branch_bottom .bottom{
+    font-size: 17px;
+    font-weight: normal;
+    color: black;
+}
+
+.ad_branch_bottom_button{
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    margin: 0px auto 0;
+    /*float: left;*/
+}
+
+.ad_branch_bottom_button .left, .ad_branch_bottom_button .right{
+    float: left;
+    margin-left: 20px;
+    height: 35px;
+    line-height: 35px;
+    width: 100px;
+    background: url("../images/greenBg.png") no-repeat;
+    background-size: 100% 100%;
+    margin-top: 5px;
+    font-size: 21px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+
+.ad_branch_bottom_button .right{
+    float: right;
+    margin-right: 20px;
+    margin-left: 0px;
+}
+

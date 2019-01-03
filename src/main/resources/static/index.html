@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tycoonway</title>
+    <link rel="stylesheet" href="css/index.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" />
+    <link rel="icon" href="images/logo.png">
+</head>
+<body>
+    <div class="titleCoin">
+        <div class="CoinDetailItem">
+            <div class="CoinDetailItemFirstImg1">
+                <img src="images/coin.png" alt="">
+            </div>
+            <p class="coinsDetail"></p>
+            <!-- <div class="CoinDetailItemFirstImg2">
+                <img onclick="openBox($(this))" src="images/addCoin.png" alt="GiftPackage">
+            </div> -->
+        </div>
+        <div class="CoinDetailItem">
+            <div class="CoinDetailItemFirstImg1 bg1">
+                <img src="images/money.png" alt="">
+            </div>
+            <p class="coinsDetail2"></p>
+        </div>
+        <div class="CoinDetailItem">
+            <p class="userAddress"></p>
+        </div>
+    </div>
+    <div class="daysClick">
+        <div>
+            <img onclick="openBox($(this))" src="images/ranking.png" alt="ranking">
+        </div>
+        <div>
+            <img onclick="openBox($(this))" src="images/GiftPackage.png" alt="GiftPackage">
+        </div>
+        <div>
+            <img onclick="openBox($(this))" src="images/SignIn.png" alt="SignIn">
+        </div>
+        <!-- <div>
+            <img src="images/LuckDraw.png" alt="LuckDraw">
+        </div> -->
+        <!--<div>
+            <img onclick="openBox($(this))" src="images/everyday.png" alt="everyday">
+        </div>-->
+        <div>
+            <img onclick="openBox($(this))" src="images/Help.png" alt="Help">
+        </div>
+    </div>
+    <div class="topMoney clearfix">
+        <div class="TotalSum clearfix">
+            <!--<img style="position: absolute;top: 0;left: 0;width: 100%;z-index: -1" src="images/gameCoinBg.png" alt="">-->
+            <div class="TotalSumImg">
+                <img src="images/coinB.png" alt="">
+            </div>
+            <div class="TotalSumDetail">
+                <p class="haveCoin" style="font-size: .85em;line-height: 1.2"></p>
+                <p class="coinMs" style="font-size: .85em;line-height: .8"></p>
+            </div>
+        </div>
+        <div class="Forward">
+            <div><img src="images/discord.png" alt=""></div>
+            <div><img src="images/twitter.png" alt=""></div>
+            <div><img src="images/telegran.png" alt=""></div>
+        </div>
+    </div>
+    <div class="house house1 noB" title="1">
+        <img class="houseImg" src="images/houseUn.png" alt="0">
+        <span class="mapHouseLev">1</span>
+        <p class="houseCoin"></p>
+    </div>
+    <div class="house house2 noB" title="2">
+        <img class="houseImg" src="images/houseUn.png" alt="0">
+        <span class="mapHouseLev">1</span>
+        <p class="houseCoin"></p>
+    </div>
+    <div class="house house3 noB" title="3">
+        <img class="houseImg" src="images/houseUn.png" alt="0">
+        <span class="mapHouseLev">1</span>
+        <p class="houseCoin"></p>
+    </div>
+    <div class="house house4 noB" title="4">
+        <img class="houseImg" src="images/houseUn.png" alt="0">
+        <span class="mapHouseLev">1</span>
+        <p class="houseCoin"></p>
+    </div>
+    <div class="house house5 noB" title="5">
+        <img class="houseImg" src="images/houseUn.png" alt="0">
+        <span class="mapHouseLev">1</span>
+        <p class="houseCoin"></p>
+    </div>
+    <div class="house house6 noB" title="6">
+        <img class="houseImg" src="images/houseUn.png" alt="0">
+        <span class="mapHouseLev">1</span>
+        <p class="houseCoin"></p>
+    </div>
+    <div class="house house7 noB" title="7">
+        <img class="houseImg" src="images/houseUn.png" alt="0">
+        <span class="mapHouseLev">1</span>
+        <p class="houseCoin"></p>
+    </div>
+    <div class="house house8 noB" title="8">
+        <img class="houseImg" src="images/houseUn.png" alt="0">
+        <span class="mapHouseLev">1</span>
+        <p class="houseCoin"></p>
+    </div>
+    <div class="house house9 noB" title="9">
+        <img class="houseImg" src="images/houseUn.png" alt="0">
+        <span class="mapHouseLev">1</span>
+        <p class="houseCoin"></p>
+    </div>
+    <div class="house house10 noB" title="10">
+        <img class="houseImg" src="images/houseUn.png" alt="0">
+        <span class="mapHouseLev">1</span>
+        <p class="houseCoin"></p>
+    </div>
+    <div class="house house11 noB" title="11">
+        <img class="houseImg" src="images/houseUn.png" alt="0">
+        <span class="mapHouseLev">1</span>
+        <p class="houseCoin"></p>
+    </div>
+    <div class="house house12 noB" title="12">
+        <img class="houseImg" src="images/houseUn.png" alt="0">
+        <span class="mapHouseLev">1</span>
+        <p class="houseCoin"></p>
+    </div>
+    <div class="bottomFix">
+        <div class="bottomFixBox">
+<!--             <div class="bottomFixBoxImg bottomFixBoxImg1"><img onclick="openBox($(this))" src="images/shopping.png" alt="branch"></div>
+ -->
+            <div class="bottomFixBoxImg bottomFixBoxImg1"><img onclick="openBox($(this))" src="images/shopping.png" alt="update"></div>
+            <div class="easyBuy"><img  onclick="openBox($(this))" class="HarvestB" style="width: 100%" src="images/HarvestP.png" alt="rentCollection"></div>
+            <div class="bottomFixBoxImg bottomFixBoxImg4"><img src="images/Trash.png" alt=""></div>
+        </div>
+    </div>
+
+    <div class="outBox">
+        <!--<div class="branch">-->
+            <!--<div class="GiftPackageTitle">-->
+                <!--<p>股权分红</p>-->
+                <!--<img class="closed" onclick="closeBox($(this))" src="images/xxx.png" alt="">-->
+            <!--</div>-->
+
+            <!--<div class="ad_GiftPackageBody">-->
+                <!--<div class="ad_GiftPackageBodyDetail ad_top">-->
+                    <!--<div class="top">预计分红收益</div>-->
+                <!--</div>-->
+                <!--<div class="ad_GiftPackageBodyDetail">-->
+                    <!--<div class="center">752,487.10 TRX</div>-->
+                <!--</div>-->
+                <!--<div class="ad_GiftPackageBodyDetail2">-->
+                    <!--<div class="bottom_time">分红倒计时: 12:21:23</div>-->
+                <!--</div>-->
+            <!--</div>-->
+
+            <!--<div class="ad_GiftPackageBody">-->
+                <!--<div class="ad_GiftPackageBodyDetail">-->
+                    <!--<div class="top">TRX股份池</div>-->
+                <!--</div>-->
+                <!--<div class="ad_GiftPackageBodyDetail">-->
+                    <!--<div class="per">-->
+                        <!--<div class="all"></div>-->
+                        <!--<div class="part"></div>-->
+                    <!--</div>-->
+                    <!---->
+                <!--</div>-->
+                <!--<div class="ad_GiftPackageBodyDetail">-->
+                    <!--<div class="bottom_per">352540/10000000</div>-->
+                <!--</div>-->
+            <!--</div>-->
+
+            <!--<div class="ad_GiftPackageBody">-->
+               <!--<div class="ad_branch_top">-->
+                        <!--<div class="left">购买股份</div>-->
+                        <!--<div class="right"></div>-->
+                <!--</div>-->
+                <!--<div class="ad_branch_center">-->
+                    <!--<div class="ad_all"> -->
+                        <!--<div class="bitIcon"></div>-->
+                        <!--<div class="right_count">759261</div>-->
+                        <!--<div class="equal">=</div>-->
+                        <!--<div class="left_count"> 14 </div>-->
+                    <!--</div>-->
+                <!--</div>-->
+                <!--<div class="ad_branch_bottom">-->
+                    <!--<div class="left">-->
+                        <!--<span class="top">拥有股份</span>-->
+                        <!--<span class="bottom">2512</span>-->
+                    <!--</div>-->
+                    <!--<div class="right">-->
+                        <!--<span class="top">可提现TRX</span>-->
+                        <!--<span class="bottom">2512</span>-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</div>-->
+
+            <!--<div class="ad_GiftPackageBody">-->
+                <!--<div class="ad_branch_bottom_button">-->
+                    <!--<div class="left">购买</div>-->
+                    <!--<div class="right">提现</div>-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+
+        <div class="GiftPackage">
+            <div class="GiftPackageTitle">
+                <p>亨币大礼包</p>
+                <img class="closed" onclick="closeBox($(this))" src="images/xxx.png" alt="">
+            </div>
+            <div class="GiftPackageBody">
+                <div class="GiftPackageBodyDetail">
+                    <div><img onclick="buyHB(0,100000000)" class="buyHB curpo" src="images/coin10.png" alt=""></div>
+                    <div><img onclick="buyHB(1,500000000)" class="buyHB curpo" src="images/coin50.png" alt=""></div>
+                    <div><img onclick="buyHB(2,1100000000)" class="buyHB curpo" src="images/coin110.png" alt=""></div>
+                    <div><img onclick="buyHB(3,2100000000)" class="buyHB curpo" src="images/coin210.png" alt=""></div>
+                    <div><img onclick="buyHB(4,5500000000)" class="buyHB curpo" src="images/coin550.png" alt=""></div>
+                    <div><img onclick="buyHB(5,10800000000)" class="buyHB curpo" src="images/coin1080.png" alt=""></div>
+                </div>
+            </div>
+        </div>
+        <div class="Help">
+            <div class="GiftPackageTitle">
+                <p>玩 法</p>
+                <img class="closed" onclick="closeBox($(this))" src="images/xxx.png" alt="">
+            </div>
+            <div class="GiftPackageBody">
+                <div class="GiftPackageBodyDetail">
+                    <img style="width: 100%;height: 100%;    border-bottom: 1px solid #000000;" src="images/help1.png" alt="">
+                    <img style="width: 100%;height: 100%;    border-bottom: 1px solid #000000;" src="images/help2.png" alt="">
+                    <img style="width: 100%;height: 100%;margin-bottom: 10px" src="images/help3.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="startGame">
+            <p><img class="curpo startButton" onclick="startGame()" src="images/startGmae.png"></p>
+        </div>
+
+        <div class="SignIn">
+            <div class="GiftPackageTitle">
+                <p>每日签到礼包</p>
+                <img class="closed" onclick="closeBox($(this))" src="images/xxx.png" alt="">
+            </div>
+            <div class="GiftPackageBody">
+                <div class="GiftPackageBodyDetail">
+                    <div>
+                        <img class="signDays curpo" onclick="signDaily()" src="images/FirstDay.png" alt="">
+                        <img class="poreHave" src="images/haveSign.png" alt="">
+                    </div>
+                    <div>
+                        <img class="signDays curpo" onclick="signDaily()" src="images/SecondDay.png" alt="">
+                        <img class="poreHave" src="images/haveSign.png" alt="">
+                    </div>
+                    <div>
+                        <img class="signDays curpo" onclick="signDaily()" src="images/ThirdDay.png" alt="">
+                        <img class="poreHave" src="images/haveSign.png" alt="">
+                    </div>
+                    <div>
+                        <img class="signDays curpo" onclick="signDaily()" src="images/ForthDay.png" alt="">
+                        <img class="poreHave" src="images/haveSign.png" alt="">
+                    </div>
+                    <div>
+                        <img class="signDays curpo" onclick="signDaily()" src="images/FifthDay.png" alt="">
+                        <img class="poreHave" src="images/haveSign.png" alt="">
+                    </div>
+                    <div>
+                        <img class="signDays curpo" onclick="signDaily()" src="images/SixthDays.png" alt="">
+                        <img class="poreHave" src="images/haveSign.png" alt="">
+                    </div>
+                    <div style="width: 65%">
+                        <img class="signDays curpo" onclick="signDaily()" src="images/SeventhDays.png" alt="">
+                        <img class="poreHave" src="images/haveSign.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="ranking">
+            <div class="GiftPackageTitle">
+                <p>排行榜</p>
+                <img class="closed" onclick="closeBox($(this))" src="images/xxx.png" alt="">
+            </div>
+            <div class="GiftPackageBody" style="padding-bottom: 5px;">
+                <div class="rankingDetail">
+
+                </div>
+            </div>
+        </div>
+
+        <div class="accelerate">
+            <div class="GiftPackageTitle">
+                <p>加 速</p>
+                <img class="closed" onclick="closeBox($(this))" src="images/xxx.png" alt="">
+            </div>
+            <div class="GiftPackageBody" style="padding-bottom: 5px;">
+                <div class="rankingDetail">
+                    <div class="rankingDetailItem" style="border-bottom: 0">
+                        <img onclick="speeding()" style="display:block;width: 60%;margin: 0 auto;margin-top: 15px" src="images/coinSpeed.png" alt="">
+                        <img onclick="speeding2()" style="display:block;width: 60%;margin: 15px auto;" src="images/coinSpeed2.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="rentCollection">
+            <div class="GiftPackageTitle">
+                <p>收 租</p>
+                <img class="closed" onclick="closeBox($(this))" src="images/xxx.png" alt="">
+            </div>
+            <div class="GiftPackageBody" style="padding-bottom: 5px;">
+                <div class="rankingDetail">
+                    <div class="rankingDetailItem" style="border-bottom: 0">
+                        <p style="text-align:center;font-size: 18px;font-weight: 600;margin-top: 15px;">当前可获取收益</p>
+                       	<p style="text-align:center;font-size: 16px;font-weight: 600;margin-top: 18px;"><span class="Harvest"></span> <img style="width:5%" src="images/coinB.png"></p>
+                       	<p style="text-align:center;font-size: 16px;font-weight: 600;margin-top: 18px;">Tips: 收益最高存储120分钟</p>
+                       	<p class="HarvestTime" style="text-align:center;font-size: 18px;font-weight: 600;margin-top: 15px;"></p>
+                       	<div class="twoButton"><img class="curpo" onclick="getCoin()" src="images/Receive.png"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="update">
+            <div class="GiftPackageTitle">
+                <p class="updateCoin">
+                    <img src="images/coinB.png" alt="">
+                    <span class="haveCoin"></span>
+                </p>
+                <img class="closed" onclick="closeBox($(this))" src="images/xxx.png" alt="">
+            </div>
+            <div class="GiftPackageBody" style="padding-bottom: 5px;">
+                <div class="rankingDetail shoppingHouse">
+                    <div class="rankingDetailItem type1">
+                        <div class="marketHouseImage">
+                            <img src="images/house/houseB1.png" alt="">
+                            <p class="houseLevelNum">1</p>
+                        </div>
+                        <p class="houseLevelName">小排挡</p>
+                        <p class="houseLevelMoney"><img src="images/coinB.png" alt="">3.222M</p>
+                    </div>
+                    <div class="rankingDetailItem type2">
+                        <div class="marketHouseImage">
+                            <img src="images/house/houseB1.png" alt="">
+                            <p class="houseLevelNum">
+                                1
+                            </p>
+                        </div>
+                        <p class="houseLevelMoney">
+                            <img src="images/coin.png" alt="">
+                            200
+                        </p>
+                        <p class="houseLevelUnup">
+                            <img src="images/unUpdate.png" alt="">
+                            <span class="houseLevelUnLevel">1</span>
+                        </p>
+                    </div>
+                    <div class="rankingDetailItem type3">
+                        <div class="marketHouseImage">
+                            <img src="images/house/houseB1.png" alt="">
+                            <p class="houseLevelNum">
+                                1
+                            </p>
+                        </div>
+                        <p class="houseLevelUnup">
+                            <img src="images/unUpdate.png" alt="">
+                            <span class="houseLevelUnLevel">1</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<script src="js/jquery-1.7.2.min.js"></script>
+<script src="js/Format.js"></script>
+<script src="js/TronWeb.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>

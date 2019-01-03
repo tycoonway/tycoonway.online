@@ -1,0 +1,654 @@
+html{
+    background: url("../images/gameBg.jpg") no-repeat;
+    background-size: 100% 100%;
+    height: 100%;
+    position: relative;
+}
+
+body{
+    height: 97%;
+    position: relative;
+    width: 100%;
+    min-height: 480px;
+    max-width: 450px;
+    margin: 0 auto;
+    background: url("../images/bigbg.png") no-repeat;
+    background-size: 100% 100%;
+    border:10px solid #000;
+    border-radius:20px
+}
+.phoneBg{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 20;
+
+}
+.phoneBg img{
+    width: 100%;
+    height:100%;
+}
+@font-face {
+    font-family: Regular;
+    src: url("../fonts/Regular.otf");
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Regular";
+}
+.titleCoin{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+.CoinDetailItem{
+    width: 30%;
+    background: #104f56;
+    height: 22px;
+    margin-top: 10px;
+    position: relative;
+}
+.CoinDetailItemFirstImg1,.CoinDetailItemFirstImg2{
+    vertical-align: middle;
+}
+.CoinDetailItemFirstImg1{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    left: -10px;
+    top: -2px;
+}
+.CoinDetailItemFirstImg1 img,.CoinDetailItemFirstImg2 img{
+    width: 100%;
+}
+.CoinDetailItemFirstImg2{
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    right: 2px;
+    top: 2px;
+}
+.coinsDetail{
+    color: white;
+    text-align: center;
+    line-height: 22px;
+    font-size: 12px;
+    width: 80%;
+    margin-left:20%;
+}
+.bg1{
+    background: url("../images/moneyBg.png") no-repeat;
+    background-size: 100% 100%;
+    left: -6px;
+}
+.bg1 img{
+    width: 70%;
+    display: block;
+    margin: 15% auto;
+}
+.userAddress{
+    color: white;
+    text-align: center;
+    line-height: 22px;
+    font-size: 12px;
+    width: 100%;
+}
+.coinsDetail2{
+    color: white;
+    text-align: center;
+    line-height: 22px;
+    font-size: 12px;
+    width: 80%;
+    margin-left: 20%;
+}
+.daysClick{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 85%;
+    margin: 0 auto;
+}
+.daysClick div{
+    width: 12%;
+    margin-top: 5px;
+}
+.daysClick div img{
+    vertical-align: middle;
+    width: 100%;
+}
+.TotalSum{
+    width: 40%;
+    float: left;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    background: url("../images/gameCoinBg.png") no-repeat;
+    background-size: 100% 100%;
+}
+.TotalSumImg{
+    width: 20%;
+    vertical-align: middle;
+    float: left;
+    margin: 5% 0 0 5%;
+}
+.TotalSumImg img{
+    width: 100%;
+    vertical-align: baseline;
+}
+.TotalSumDetail{
+    float: left;
+    color: white;
+    width: 70%;
+    text-align: center;
+    margin: 4px 0;
+}
+.topMoney{
+    width: 85%;
+    margin: 5px auto 0;
+}
+.clearfix:after{
+    content: ".";
+    clear: both;
+    display: block;
+    overflow: hidden;
+    font-size: 0;
+    height: 0;
+}
+.Forward{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 7.25em;
+    float: left;
+    margin-left: 5px;
+}
+.Forward div{
+    width: 30%;
+}
+.Forward div img{
+    vertical-align: middle;
+    width: 100%;
+}
+.house{
+    width: 23%;
+    background: url("../images/houseUn.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.house1{
+    position: absolute;
+    top: 20%;
+    left: 20%;
+}
+.houseImg{
+    width: 100%;
+    vertical-align: middle;
+    visibility: hidden;
+}
+.house2{
+    position: absolute;
+    top: 20%;
+    left: 46%;
+}
+.house3{
+    position: absolute;
+    top: 20%;
+    left: 72%;
+}
+.house4{
+    position: absolute;
+    top: 37%;
+    left: 56%;
+}
+.house5{
+    position: absolute;
+    top: 37%;
+    left: 30%;
+}
+.house6{
+    position: absolute;
+    top: 37%;
+    left: 4%;
+}
+.house7{
+    position: absolute;
+    top: 54%;
+    left: 20%;
+}
+.house8{
+    position: absolute;
+    top: 54%;
+    left: 46%;
+}
+.house9{
+    position: absolute;
+    top: 54%;
+    left: 72%;
+}
+.house10{
+    position: absolute;
+    top: 72%;
+    left: 56%;
+}
+.house11{
+    position: absolute;
+    top: 72%;
+    left: 30%;
+}
+.house12{
+    position: absolute;
+    top: 72%;
+    left: 4%;
+}
+.bottomFix{
+    position: fixed;
+    bottom: 15px;
+    width: 100%;
+    max-width: 450px;
+}
+.bottomFixBox{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    line-height: 100%;
+}
+
+.bottomFixBoxImg img{
+    vertical-align: middle;
+    width: 100%;
+}
+.bottomFixBoxImg1{
+    width: 20%;
+}
+.bottomFixBoxImg4{
+    width: 14%;
+}
+.easyBuy{
+    width: 35%;
+}
+.easyBuyDetail{
+    margin: 2px 0;
+    background: url("../images/gameCoinBg.png") no-repeat;
+    background-size: 100% 100%;
+}
+.float_L{
+    float: left;
+}
+.easyBuyLv{
+    color: white;
+    font-size: 12px;
+    line-height: 1;
+}
+.easyBuyNum{
+    color: white;
+    font-size: 14px;
+    line-height: 1;
+    margin-top: 2px;
+}
+.outBox{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: rgba(0,0,0,.8);
+    max-width: 450px;
+    display: block;
+}
+.GiftPackage{
+    width: 80%;
+    margin: 30% auto 0;
+    display: none;
+}
+.GiftPackageTitle{
+    height: 50px;
+    background: url("../images/boxTitle.png") no-repeat;
+    background-size: 100% 100%;
+}
+.GiftPackageTitle{
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 50px;
+    position: relative;
+    z-index: 10;
+}
+.GiftPackageBody{
+    background: url("../images/boxBody.png") no-repeat;
+    background-size: 100% 100%;
+
+}
+.GiftPackageBodyDetail{
+    width: 95%;
+    margin: -15px auto 0;
+    padding-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.GiftPackageBodyDetail div{
+    width: 30%;
+    margin: 0 0 18px;
+    position: relative;
+}
+.GiftPackageBodyDetail div img{
+    width: 100%;
+}
+.closed{
+    position: absolute;
+    left: 84%;
+    top: 25%;
+    width: 24px;
+}
+.SignIn{
+    width: 80%;
+    margin: 30% auto 0;
+    display: none;
+}
+.ranking{
+    width: 80%;
+    margin: 30% auto 0;
+    display: none;
+}
+.rankingDetail{
+    width: 95%;
+    margin: -15px auto 0;
+    padding-top: 20px;
+    max-height: 300px;
+    overflow: auto;
+}
+.rankingDetailItemDetail{
+    display: inline-block;
+    width: 80%;
+}
+.RankingNum{
+    width: 17%;
+}
+.userName{
+    font-size: 20px;
+    font-weight: 600;
+    display: inline-block;
+    width: 40%;
+    text-align: left;
+    line-height: 1.5;
+}
+.ownCoin{
+    display: inline-block;
+    width: 57%;
+    text-align: right;
+}
+.coinB{
+    width: 16%;
+    vertical-align: sub;
+
+}
+.ownCoin span{
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+    text-shadow:-1px 0 black,
+    0 1px black,
+    1px 0 black,
+    0 -1px black;
+}
+.userLevel{
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+    line-height: 1.5;
+}
+.rankingDetailItem{
+    border-bottom: 1px solid #000000;
+    padding: 5px 0;
+}
+.update{
+    width: 80%;
+    margin: 30% auto 0;
+    display: none;
+}
+.updateCoin{
+    background: rgba(16,67,111,.9);
+    display: inline-block;
+    position: relative;
+    top: -10%;
+    left: -25%;
+    line-height: normal;
+    font-size: 14px;
+}
+.updateCoin img{
+    width: 20px;
+    vertical-align: middle;
+    position: absolute;
+    left: -10px;
+}
+.updateCoin span{
+    margin: 0 20px;
+}
+.marketHouseImage{
+    width: 24%;
+    display: inline-block;
+    position: relative;
+}
+.marketHouseImage img{
+    width: 100%;
+    vertical-align: middle;
+}
+.houseLevelNum{
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    font-weight: 600;
+    width: 20px;
+    height: 22px;
+    background: url('../images/levelNum.png') no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.type1 .houseLevelName{
+    display: inline-block;
+    width: 40%;
+    margin-left: 2%;
+    font-size: 16px;
+}
+.type1 .houseLevelMoney{
+    padding: 5px 10px;
+    display: inline-block;
+    width: 24%;
+    background: url("../images/gameCoinBg.png") no-repeat;
+    background-size: 100% 100%;
+    text-align:center;
+}
+.type1 .houseLevelMoney img{
+    width: 20px;
+    vertical-align: sub;
+}
+.type2 .houseLevelMoney{
+    padding: 5px 10px;
+    display: inline-block;
+    width: 16%;
+    background: url("../images/gameCoinBg.png") no-repeat;
+    background-size: 100% 100%;
+    text-align:center;
+}
+.type2 .houseLevelMoney img{
+    width: 20px;
+    vertical-align: sub;
+}
+.type2 .houseLevelName{
+	display: inline-block;
+    width: 24%;
+    margin-left: 2%;
+    font-size: 16px;
+}
+.type3 .houseLevelName{
+	display: inline-block;
+    width: 48%;
+    margin-left: 2%;
+    font-size: 16px;
+}
+.houseLevelUnup{
+    padding: 5px 10px;
+    display: inline-block;
+    width: 15%;
+    background: url("../images/levelUnUp.png") no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+}
+.houseLevelUnup img{
+    width: 17px;
+    vertical-align: bottom;
+}
+.houseLevelUnLevel{
+    display: inline-block;
+    width: 17px;
+    height: 19px;
+    background: url("../images/levelNum.png") no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+}
+
+.accelerate{
+    width: 80%;
+    margin: 30% auto 0;
+    display: none;
+}
+.rentCollection{
+    width: 80%;
+    margin: 30% auto 0;
+    display: none;
+}
+.houseLevelMoney{
+    font-size: 12px;
+}
+
+.mapHouseLev{
+    display: none;
+    width: 23px;
+    height: 25px;
+    background: url("../images/levelNum.png") no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.curpo{
+    cursor: pointer;
+}
+.poreHave{
+    position: absolute;
+    bottom: 5px;
+    display: none;
+}
+
+.Help{
+    width: 80%;
+    margin: 20% auto 0;
+    display: none;
+}
+.houseCoin{
+    display: none;
+    text-align: center;
+    font-size: 14px;
+    color: #ffff9d;
+    position: absolute;
+    width: 100%;
+    bottom: 20px;
+    animation: myfirst;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes myfirst
+{
+    0% {bottom:20px;opacity: 0}
+    79%{bottom:20px;opacity: 0}
+    80%{bottom:20px;opacity: 1}
+    100% {bottom:50px;opacity: 0}
+}
+
+::-webkit-scrollbar {/*滚动条整体样式*/
+        width: 10px;     /*高宽分别对应横竖滚动条的尺寸*/
+        height: 1px;
+    }
+::-webkit-scrollbar-thumb {/*滚动条里面小方块*/
+        border-radius: 10px;
+         -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+        background: #535353;
+    }
+::-webkit-scrollbar-track {/*滚动条里面轨道*/
+        -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+        border-radius: 10px;
+        background: #EDEDED;
+    }
+    
+.twoButton{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.twoButton img{
+	width:30%;
+	height:100%;
+	margin-top: 22px;
+    margin-bottom: 15px;
+}
+.startGame{
+    width: 100%;
+    height:100%;
+    display: block;
+    background:url("../images/startGameBg.png") no-repeat;
+    background-size: 100%;
+    overflow:hidden;
+}
+.startGame p{
+	text-align:center;
+	margin-top:78%;
+}
+.startGame p img{
+	width:50%;
+}
+@media screen and (max-width: 520px) {
+    body {
+        border:0;
+        border-radius:0;
+        height:100%;
+    }
+    .bottomFix{
+    bottom:0}
+    .TotalSumDetail{
+    	margin: 2px 0;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .userName{
+		font-size: 16px;
+    }
+    .userLevel{
+    	font-size: 14px;
+    }
+    .ownCoin span{
+    	font-size: 16px;
+    }
+}
+
+
+.startButton{
+	display:none;
+}
